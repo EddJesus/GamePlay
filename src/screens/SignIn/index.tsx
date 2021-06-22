@@ -3,8 +3,7 @@ import React, { ReactNode } from "react";
 import { 
   Text, 
   View, 
-  Image, 
-  StatusBar 
+  Image,
 } from "react-native";
 
 import IllustrationImg from "../../assets/illustration.png";
@@ -18,11 +17,6 @@ interface IndexProps {
 function SignIn({ children }: IndexProps) {
   return (
     <View style={styles.container}>
-      <StatusBar
-        barStyle="light-content"
-        backgroundColor="transparent"
-        translucent
-      />
       <Image
         source={IllustrationImg}
         style={styles.image}
