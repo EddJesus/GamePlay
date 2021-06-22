@@ -30,12 +30,11 @@ function SignIn({ children }: IndexProps) {
       />
       <View style={styles.content}>
         <Text style={styles.title}>
-          Organize {"\n"}
-          suas jogatinas {"\n"}
-          facilmente
+          Conecte-se {"\n"}
+          e organize suas jogatinas 
         </Text>
         <Text style={styles.subtitle}>
-          crie grupos para poder jogar seus game {"\n"}
+          Crie grupos para poder jogar seus game {"\n"}
           favoritos com seus amigos {"\n"}
         </Text>
         <ButtonIcon 
